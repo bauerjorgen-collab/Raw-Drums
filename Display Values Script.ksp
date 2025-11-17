@@ -1,0 +1,106 @@
+{ *** ADD DISPLAY LABELS FOR FX1 *** }
+    
+    { EQ Display Labels }
+    declare ui_label $hf_gain_display1(3, 1)
+    move_control_px($hf_gain_display1, 700, 145)
+    hide_part($hf_gain_display1, $HIDE_PART_BG)
+    set_text($hf_gain_display1, "0.0 dB")
+
+    declare ui_label $hf_freq_display1(3, 1)
+    move_control_px($hf_freq_display1, 620, 145)
+    hide_part($hf_freq_display1, $HIDE_PART_BG)
+    set_text($hf_freq_display1, "10000 Hz")
+
+    declare ui_label $mf_gain_display1(3, 1)
+    move_control_px($mf_gain_display1, 540, 145)
+    hide_part($mf_gain_display1, $HIDE_PART_BG)
+    set_text($mf_gain_display1, "0.0 dB")
+
+    declare ui_label $mf_freq_display1(3, 1)
+    move_control_px($mf_freq_display1, 460, 145)
+    hide_part($mf_freq_display1, $HIDE_PART_BG)
+    set_text($mf_freq_display1, "1000 Hz")
+
+    declare ui_label $lf_gain_display1(3, 1)
+    move_control_px($lf_gain_display1, 380, 145)
+    hide_part($lf_gain_display1, $HIDE_PART_BG)
+    set_text($lf_gain_display1, "0.0 dB")
+
+    declare ui_label $lf_freq_display1(3, 1)
+    move_control_px($lf_freq_display1, 300, 145)
+    hide_part($lf_freq_display1, $HIDE_PART_BG)
+    set_text($lf_freq_display1, "100 Hz")
+
+    declare ui_label $hp_freq_display1(3, 1)
+    move_control_px($hp_freq_display1, 220, 145)
+    hide_part($hp_freq_display1, $HIDE_PART_BG)
+    set_text($hp_freq_display1, "20 Hz")
+
+    { Compressor Display Labels }
+    declare ui_label $thresh_display1(3, 1)
+    move_control_px($thresh_display1, 260, 255)
+    hide_part($thresh_display1, $HIDE_PART_BG)
+    set_text($thresh_display1, "0.0 dB")
+
+    declare ui_label $ratio_display1(3, 1)
+    move_control_px($ratio_display1, 340, 255)
+    hide_part($ratio_display1, $HIDE_PART_BG)
+    set_text($ratio_display1, "1.0:1")
+
+    declare ui_label $attack_display1(3, 1)
+    move_control_px($attack_display1, 420, 255)
+    hide_part($attack_display1, $HIDE_PART_BG)
+    set_text($attack_display1, "10 ms")
+
+    declare ui_label $release_display1(3, 1)
+    move_control_px($release_display1, 500, 255)
+    hide_part($release_display1, $HIDE_PART_BG)
+    set_text($release_display1, "100 ms")
+
+    declare ui_label $mix_display1(3, 1)
+    move_control_px($mix_display1, 580, 255)
+    hide_part($mix_display1, $HIDE_PART_BG)
+    set_text($mix_display1, "100%")
+
+    declare ui_label $makeup_display1(3, 1)
+    move_control_px($makeup_display1, 660, 255)
+    hide_part($makeup_display1, $HIDE_PART_BG)
+    set_text($makeup_display1, "0.0 dB")
+
+    { Reverb Display Labels }
+    declare ui_label $predelay_display1(3, 1)
+    move_control_px($predelay_display1, 380, 365)
+    hide_part($predelay_display1, $HIDE_PART_BG)
+    set_text($predelay_display1, "10 ms")
+
+    declare ui_label $decay_display1(3, 1)
+    move_control_px($decay_display1, 460, 365)
+    hide_part($decay_display1, $HIDE_PART_BG)
+    set_text($decay_display1, "1.0 s")
+
+    declare ui_label $stereo_display1(3, 1)
+    move_control_px($stereo_display1, 540, 365)
+    hide_part($stereo_display1, $HIDE_PART_BG)
+    set_text($stereo_display1, "100%")
+
+    { Saturation Display Labels }
+    declare ui_label $tpgain_display1(3, 1)
+    move_control_px($tpgain_display1, 220, 455)
+    hide_part($tpgain_display1, $HIDE_PART_BG)
+    set_text($tpgain_display1, "0.0 dB")
+
+    declare ui_label $warmth_display1(3, 1)
+    move_control_px($warmth_display1, 300, 455)
+    hide_part($warmth_display1, $HIDE_PART_BG)
+    set_text($warmth_display1, "50%")
+
+    { Transient Display Labels }
+    declare ui_label $transatt_display1(3, 1)
+    move_control_px($transatt_display1, 620, 455)
+    hide_part($transatt_display1, $HIDE_PART_BG)
+    set_text($transatt_display1, "0.0 dB")
+
+    declare ui_label $transsus_display1(3, 1)
+    move_control_px($transsus_display1, 700, 455)
+    hide_part($transsus_display1, $HIDE_PART_BG)
+    set_text($transsus_display1, "0.0 dB")
